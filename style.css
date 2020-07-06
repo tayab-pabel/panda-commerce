@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* === Start Header === */
+.search-bar {
+  position: relative;
+  width: 60%;
+}
+
+.search-bar .search-box {
+  font-style: italic;
+  padding-left: 25px;
+  border-radius: 25px;
+  border-color: transparent;
+  background-color: #F8F8F8;
+}
+
+.search-bar .search-box::placeholder {
+  color: #CFCFCF;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+/* === End Header === */
+
+/* === Start Carousel Section === */
+.carousel{
+  background-color: #FEEAE9;
+  border-radius: 15px;
+}
+.carousel-indicators li{
+  height: 8px;
+  width: 16px;
+  border-radius: 5px;
+  background-clip:unset;
+  border: 0;
+  opacity: 1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.carousel-indicators .active{
+  background-color: #ff267b;
+  width: 35px;
+}
+
+.price{
+  color: #ff267b;
+}
+
+.btn-buy {
+  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  color: #FFF;
+}
+
+.btn-buy:hover {
+  border: 1px solid #FF136F;
+  background: #FEEAE9;
+  color: #FF136F;
+}
+
+/* === End Carousel Section === */
