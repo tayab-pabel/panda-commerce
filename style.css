@@ -6,8 +6,19 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* === Reusable === */
 a:hover{
   text-decoration: none;
+}
+
+.carousel, .subscribe{
+  background-color: #FEEAE9;
+  border-radius: 15px;
+}
+
+.btn-buy, .btn-send {
+  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  color: #FFF;
 }
 
 /* === Start Header === */
@@ -22,6 +33,10 @@ a:hover{
   border-radius: 25px;
   border-color: transparent;
   background-color: #F8F8F8;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .search-bar .search-box::placeholder {
@@ -36,10 +51,6 @@ a:hover{
 /* === End Header === */
 
 /* === Start Carousel Section === */
-.carousel{
-  background-color: #FEEAE9;
-  border-radius: 15px;
-}
 .carousel-indicators li{
   height: 8px;
   width: 16px;
@@ -61,15 +72,86 @@ a:hover{
   color: #ff267b;
 }
 
-.btn-buy {
-  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
-  color: #FFF;
-}
-
 .btn-buy:hover {
   border: 1px solid #FF136F;
   background: #FEEAE9;
   color: #FF136F;
 }
-
 /* === End Carousel Section === */
+
+/* === Start Category Section === */
+.category .cat{
+  color: #ffffff;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.category  .cat:hover h1{
+  transform: translateX(20px);
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -o-transform: translateX(20px);
+}
+
+.category .cat img{
+  height: 110px;
+}
+
+.cat1 {
+  background-image: linear-gradient(45deg , #FF9C35 , #FFD019);
+}
+.cat2 {
+  background-image: linear-gradient(to bottom , #FF589B , #FF136F);
+}
+.cat3 {
+  background-image: linear-gradient(45deg , #4289FF , #3F07F8);
+}
+/* === End Category Section === */
+
+/* === Start Products Section === */
+.products .card{
+  border: 0;
+  box-shadow: 10px 10px 30px #e4e3e3;
+  border-radius: 12px;
+  padding-bottom: 15px;
+  transition: .3s ease-in-out;
+}
+
+.products .card:hover{
+  box-shadow: 10px 10px 30px #c5c4c4;
+}
+
+.all-products a{
+  color: #FF9D00;
+}
+
+.btn-dark:hover {
+  background: #FFF;
+  color: #000;
+}
+/* === End Products Section === */
+
+/* === Start Subscribe Section === */
+.btn-send:hover {
+  border: 1px solid #FF136F;
+  background: #FFF;
+  color: #FF136F;
+}
+
+.subscribe .btn-send{
+  border-radius: 10px;
+}
+
+.subscribe .form-control{
+  border:0;
+}
+/* === End Subscribe Section === */
