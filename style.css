@@ -21,6 +21,22 @@ a:hover{
   color: #FFF;
 }
 
+/* === Start Navbar === */
+.navbar-toggler .fa {
+  font-size: 25px;
+}
+
+.navbar-toggler,  
+.navbar-toggler:focus {
+  color: #ff267b!important;
+  border: 1px solid #ff267b!important;
+  border-radius: 3px;
+  outline: none;
+  padding: 7px 12px 5px;
+}
+/* === End Navbar === */
+
+
 /* === Start Header === */
 .search-bar {
   position: relative;
