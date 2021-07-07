@@ -2,7 +2,7 @@
 ## ([Live Preview](https://tayab-pabel.github.io/panda-commerce/))
 ## Features
    - e-Commerce landing page.
-   - Bootstrap Components.
+   - Bootstrap components.
    - Responsive layout.
 ## Technology
    - HTML
